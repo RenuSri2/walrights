@@ -1,0 +1,19 @@
+{
+  "name": "walrights",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "mint": "npx tsx scripts/mint_rights.ts",
+    "list": "npx tsx scripts/create_license.ts",
+    "buy": "npx tsx scripts/buy_license.ts",
+    "upload": "npx tsx scripts/upload.ts"
+  },
+  "dependencies": {
+    "@mysten/sui": "^2.16.2",
+    "@mysten/walrus": "^1.1.7"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
+  }
+}

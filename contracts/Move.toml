@@ -1,0 +1,6 @@
+[package]
+name = "walrights"
+edition = "2024.beta"
+
+[addresses]
+walrights = "0x0"
